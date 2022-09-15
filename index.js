@@ -88,8 +88,8 @@ keys.addEventListener('click', e => {
                 add = operators.indexOf('+')
             }
 
-            display.textContent = Number(numbers[0]).toFixed(10)
-            let result = Number(numbers[0]).toFixed(10)
+            display.textContent = Math.round(Number(numbers[0]) * 10000000000) / 10000000000
+            
 
         }
 
